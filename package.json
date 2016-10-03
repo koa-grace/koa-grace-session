@@ -1,0 +1,31 @@
+{
+  "name": "koa-grace-session",
+  "version": "1.0.0",
+  "description": "koa-grace session服务中间件",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=* node --harmony ./example/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koa-grace/koa-grace-session.git"
+  },
+  "keywords": [
+    "koa-grace",
+    "session"
+  ],
+  "author": "xiongwilee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koa-grace/koa-grace-session/issues"
+  },
+  "homepage": "https://github.com/koa-grace/koa-grace-session",
+  "devDependencies": {
+    "koa": "^1.2.4",
+    "koa-grace-router": "^1.0.36"
+  },
+  "dependencies": {
+    "koa-generic-session": "^1.11.3",
+    "koa-redis": "^2.1.2"
+  }
+}
